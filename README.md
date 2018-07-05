@@ -10,3 +10,5 @@ I used a training dataset of 4000 color images of dogs and 4000 cats. To ensure 
 I compiled my classifier using the Adam optimizer and using binary_crossentropy as my loss function due to the binary nature of the output (cat or dog). For ease of understanding the metric I used in this project was accuracy.
 
 As part of pre-processing the image data I used the ImageDataGenerator function to rescale the images. In order to get somewhat high accuracy I set my model to train for 25 epochs. I need up only running 4 epochs before reaching an accuracy of 99.1% and accepting this measure. 
+
+<img width="524" alt="screen shot 2018-06-24 at 8 15 48 pm" src="https://user-images.githubusercontent.com/6904744/42303778-0a9c2a94-7fe0-11e8-81b3-f9dc90df77aa.png">
